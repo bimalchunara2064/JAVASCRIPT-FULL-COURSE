@@ -1,0 +1,1 @@
+alert("my school is very good");
