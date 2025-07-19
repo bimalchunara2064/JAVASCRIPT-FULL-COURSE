@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin:0px;
+    padding:20px;
+    gap:50px;
+ 
+}
+.nav-bar li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+  
+
+}
+.nav-bar a:hover{
+    color:yellow;
+    border-radius:5px;
+
+}
+
+        </style>
+        <script src="./data.js" type="text/javascript"></script>
+    </head>
+    <body onload="display_Emp_Data()">
+        <nav class="nav-bar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Gallery</li>
+                <li>Contact</li>
+            </ul>
+            
+        </nav>
+        <h3>Employee Table</h3>
+        <table border="3">
+            <thead>
+                <th>Employee Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Contact</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </body>
+    
+</html>

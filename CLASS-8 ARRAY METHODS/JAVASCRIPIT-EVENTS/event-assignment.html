@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <script src="./event-assignment.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Events</title>
+    <style>
+        #caption {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="caption">
+        JavaScript Events
+    </p>
+
+    <!-- First Section -->
+    <div class="container mt-5">
+        <div class="row mb-4">
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">OnMouseOver</h5>
+                        <p class="card-text">Mouse Over to change Button background color.</p>
+                        <button type="button" class="btn btn-danger btn-lg mouse-over"  onmouseover="Mouseover()">Mouse Over</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">OnMouseOut</h5>
+                        <p class="card-text">Mouse Out to change Button background color.</p>
+                        <button type="button" class="btn btn-danger btn-lg" onmouseout="Mouseout()" style="background-color: red;">Mouse Out</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">OnClick</h5>
+                        <p class="card-text">Click to change Button background color.</p>
+                        <button type="button" class="btn btn-danger btn-lg" id="btn1" onclick="Click()">OnClick</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+
+    <!-- Second Section (with spacing from the first) -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">OnDoubleClick</h5>
+                        <p class="card-text">Double Click to change Button background color.</p>
+                        <button type="button" class="btn btn-danger btn-lg" ondblclick="Clickdbl()">OnDoubleClick</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">OnFocus</h5>
+                        <p class="card-text">OnFocus to change Button background color.</p>
+                        <input type="text" placeholder="OnFocus" onfocus="OnFocus(this)">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">OnBlur</h5>
+                        <p class="card-text">Change Lower case to Upper Case Onblur Event</p>
+                        <input type="text" placeholder="OnBlur" onblur="OnBlur(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+</body>
+
+</html>
