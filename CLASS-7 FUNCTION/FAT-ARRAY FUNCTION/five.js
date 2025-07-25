@@ -1,2 +1,2 @@
-let add=(a,b)=>a+b;
-console.log(add(10,20))
+let multiply =(a,b)=>a*b;
+console.log(multiply(10,20))

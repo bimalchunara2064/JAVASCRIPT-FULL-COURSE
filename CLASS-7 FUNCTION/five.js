@@ -18,4 +18,3 @@ console.log(Student.contact);
 console.log(Student.qulification);
 console.log(Student.Ems);
 console.log(Student.blood_group);
-s
